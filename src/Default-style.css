@@ -12,3 +12,13 @@ body {
     font-family: vazir;
     font-size: small;
 }
+
+/* Header */
+/* user */
+.user {
+    background-image: url(../files/image/user.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}

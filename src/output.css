@@ -554,12 +554,36 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .w-screen {
   width: 100vw;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .bg-background {
