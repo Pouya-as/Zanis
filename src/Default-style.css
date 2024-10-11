@@ -11,6 +11,8 @@
 body {
     font-family: vazir;
     font-size: small;
+    /* box-sizing: border-box;
+    margin: 0; */
 }
 
 /* Header */
@@ -21,4 +23,32 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25px;
+}
+
+/* Header Button */
+.btn1 {
+    background-image: url(../files/icon/caret-up-solid.svg);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    rotate: -90deg;
+}
+
+.btn2 {
+    background-image: url(../files/icon/bars-solid.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+/* Header Button Rotate */
+.btn-rotate #nav-toggle-btn {
+    transform: rotate(180deg);
+}
+
+/* Header title removing */
+.header-brand .brand {
+    background-color: white;
+    color: black;
+    width: 100px;
 }

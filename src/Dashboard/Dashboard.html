@@ -10,22 +10,32 @@
 <body class="bg-background">
 
     <!-- Header -->
-    <!-- User -->
-    <div class="bg-white w-screen h-12 flex">
-        <div class="flex flex-row-reverse gap-1">
-            <div class="user"></div>
-            <span>کاربر</span>
-        </div>
+    <div class="bg-white w-screen h-12 flex flex-row items-center
+     justify-between drop-shadow-lg">
+        <div class="w-full flex justify-between">
+            <!-- User -->
+            <div class="flex flex-row-reverse gap-1 pl-8 items-center">
+                <div class="user"></div>
+                <span>پویا آصفی نیا</span>
+            </div>
 
-        <!--Persian Date -->
-        <div id="date"></div>
+            <!--Persian Date -->
+            <div dir="rtl" class="flex gap-2 mr-4 my-auto">
+                <p>امروز :</p>
+                <span id="date"></span>
+            </div>
+        </div>
 
         <!-- Header Button -->
-        <div>
-            <span>IREPAIR</span>
-            <span>IREPAIR</span>
-            <button></button>
-        </div>
+         <div class="flex h-full">
+            <h1 dir="rtl" class="brand bg-header-btn text-white h-full w-48 flex
+             items-center pr-9"><a href="">IREPAIR</a></h1>
+            <button id="nav-toggle-btn" class="bg-hd-button w-12 h-full flex items-center pl-2 pr-3 ">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+            </button>
+         </div>
+
     </div>
 
 
