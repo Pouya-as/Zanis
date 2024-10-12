@@ -89,6 +89,24 @@ body {
     height: 20px;
 }
 
-/* #navbar ul span {
+/* Hide the sidebar's spans for when sidebar is closed */
+.hidden-nav span {
+    display: block;
+}
+
+.sidebar-closed .hidden-nav span {
     display: none;
-} */
+}
+
+/* Navbar btn */
+.add-btn {
+    background-image: url(../files/icon/add-menu-button.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+}
+
+/* Remove the addbutton in navbar witch whenis closed */
+.hidden-nav #add-btn {
+    display: none;
+}
