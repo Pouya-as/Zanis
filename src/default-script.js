@@ -15,4 +15,7 @@ toggle.addEventListener('click', function() {
 
     // header-title style in h1 
     document.body.classList.toggle('header-brand');
+
+    // change width for navbar
+    document.body.classList.toggle('sidebar-closed');
 })
