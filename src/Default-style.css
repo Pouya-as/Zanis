@@ -55,6 +55,40 @@ body {
 
 
 /* Navbar */
+/* changing the navbar width */
 .sidebar-closed #navbar {
     width: 3rem;
 }
+
+/* navbar Icons */
+.dashboard {
+    background-image: url(../files/icon/dashboard.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.users {
+    background-image: url(../files/icon/users.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.list {
+    background-image: url(../files/icon/list.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.gears {
+    background-image: url(../files/icon/gears.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+/* #navbar ul span {
+    display: none;
+} */
