@@ -52,14 +52,14 @@
                     <span>مشتریان</span>
                 </a>
              </li>
-             <li class=" w-full">
+             <li class=" w-full group">
                 <a href="" class="hidden-nav nav-item flex gap-2 px-[14px] py-[11px] h-full hover:text-white duration-150">
                     <div class="list"></div>
                     <span>تعمیرات</span>
                 </a>
 
                 <!-- Dropdown menu -->
-                <ul class="bg-navbar dropdown hidden-nav">
+                <ul class="dropdown bg-navbar hidden-nav">
                     <li>
                         <a href="" class="py-2 pl-4 pr-10 flex justify-between hover:text-white duration-150">
                             <span>همه تعمیرات</span>
@@ -134,15 +134,93 @@
                     </li>
                 </ul>
 
+                <!-- Hover dropdown menu -->
+                <ul class="hover-dropdown bg-navbar w-[220px] absolute right-[46px] top-[94px]">
+                    <li class="bg-menu text-white h-10 px-5 py-3">
+                        <span>تعمیرات</span>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>همه تعمیرات</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>تسویه نشده ها</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>درحال تعمیر</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>خریداری شده</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>بررسی شده</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>ارسال به مرکز خدمات دیگر</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>آماده تحویل</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>منتظر قطعه</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>منتظر پاسخ مشتری</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>انصراف از تعمیر</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>تحویل شده</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex justify-between hover:text-white duration-150">
+                            <span>موقتا تحویل شده</span>
+                            <span class="bg-orange-500 w-5 h-5 text-center rounded-[10px]">0</span>
+                        </a>
+                    </li>
+                </ul>
              </li>
-             <li class=" w-full">
+             <li class=" w-full group">
                 <a href="" class="hidden-nav nav-item flex gap-2 px-[14px] py-[11px] h-full hover:text-white duration-150">
                     <div class="gears"></div>
                     <span>تنظیمات</span>
                 </a>
 
                 <!-- Dropdown menu -->
-                <ul class="bg-navbar dropdown hidden-nav">
+                <ul class="dropdown bg-navbar hidden-nav">
                     <li class="">
                         <a href="" class="py-2 pl-4 pr-10 flex hover:text-white duration-150">تنظیمات اصلی</a>
                     </li>
@@ -163,6 +241,34 @@
                     </li>
                     <li>
                         <a href="" class="py-2 pl-4 pr-10 flex hover:text-white duration-150">وضعیت های مراکز خدمات</a>
+                    </li>
+                </ul>
+
+                <!-- Hover dropdown menu -->
+                <ul class="hover-dropdown bg-navbar w-[220px] absolute right-[46px] top-[130px]">
+                    <li class="bg-menu text-white h-10 px-5 py-3">
+                        <span>تنظیمات</span>
+                    </li>
+                    <li class="">
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">تنظیمات اصلی</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">همکاران</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">وضعیت ها</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">برندها</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">دستگاه ها</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">مراکز خدمات</a>
+                    </li>
+                    <li>
+                        <a href="" class="py-2 pl-4 pr-5 flex hover:text-white duration-150">وضعیت های مراکز خدمات</a>
                     </li>
                 </ul>
              </li>

@@ -135,3 +135,24 @@ body {
 .sidebar-closed ul.hidden-nav {
     display: none;
 }
+
+/* hover dropdown menu */
+.hover-dropdown {
+    display: none;
+}
+
+.sidebar-closed .group:hover .hover-dropdown {
+    display: block;
+    animation: slideLeft 0.5s ease;
+}
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translatex(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
