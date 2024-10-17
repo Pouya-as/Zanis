@@ -19,7 +19,7 @@ toggle.addEventListener('click', function() {
     // change width for navbar
     document.body.classList.toggle('sidebar-closed');
 
-    // Hide the sidebar's spans and add button for when sidebar is closed
+    // Hide the sidebar's spans and add button and Dropdown menu for when sidebar is closed
     document.body.classList.toggle('hidden-nav');
 })
 

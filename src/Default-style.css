@@ -130,3 +130,8 @@ body {
         transform: translateY(0);
     }
 }
+
+/* hide the dropdown menu when navbar width is 56px */
+.sidebar-closed ul.hidden-nav {
+    display: none;
+}
