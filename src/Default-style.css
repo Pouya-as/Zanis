@@ -109,3 +109,24 @@ body {
 .hidden-nav #add-btn {
     display: none;
 }
+
+/* Animation for dropdown menu*/
+.dropdown {
+    display: none;
+}
+
+.show {
+    display: block;
+    animation: slideDown 0.5s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

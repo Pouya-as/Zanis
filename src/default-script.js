@@ -21,6 +21,25 @@ toggle.addEventListener('click', function() {
 
     // Hide the sidebar's spans and add button for when sidebar is closed
     document.body.classList.toggle('hidden-nav');
-
-    
 })
+
+// Dropdown menu in navbar 
+document.addEventListener("DOMContentLoaded", function () {
+    const navItems = document.querySelectorAll(".nav-item");
+  
+    navItems.forEach(item => {
+      item.addEventListener("click", function (e) {
+        e.preventDefault();
+  
+        // Close any open dropdowns
+        const openDropdown = document.querySelector(".dropdown.show");
+        if (openDropdown && openDropdown !== this.nextElementSibling) {
+          openDropdown.classList.remove("show");
+        }
+  
+        // Toggle the clicked item's dropdown
+        const dropdown = this.nextElementSibling;
+        dropdown.classList.toggle("show");
+      });
+    });
+});
