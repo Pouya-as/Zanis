@@ -24,6 +24,24 @@ body {
     border-radius: 25px;
 }
 
+/* logout part in user section */
+.logout {
+    background-image: url(../files/icon/Logout.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+/* Logout dropdown */
+.logout-dropdown {
+    display: none;
+}
+
+.open .logout-dropdown {
+    display: block;
+}
+
+
 /* Header Button */
 .btn1 {
     background-image: url(../files/icon/caret-up-solid.svg);

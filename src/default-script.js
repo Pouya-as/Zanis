@@ -23,6 +23,14 @@ toggle.addEventListener('click', function() {
     document.body.classList.toggle('hidden-nav');
 })
 
+// Logout dropdown in header
+const logout = document.querySelector('dropdown-toggle')
+logout.addEventListener('click', function() {
+
+  // open the logout dropdown
+  document.body.classList.toggle('open');
+})
+
 // Dropdown menu in navbar 
 document.addEventListener("DOMContentLoaded", function () {
     const navItems = document.querySelectorAll(".nav-item");
