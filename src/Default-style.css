@@ -33,9 +33,9 @@ body {
 }
 
 /* Logout dropdown */
-.logout-dropdown {
+/* .logout-dropdown {
     display: none;
-}
+} */
 
 .open .logout-dropdown {
     display: block;

@@ -21,10 +21,10 @@ toggle.addEventListener('click', function() {
 
     // Hide the sidebar's spans and add button and Dropdown menu for when sidebar is closed
     document.body.classList.toggle('hidden-nav');
-})
+});
 
 // Logout dropdown in header
-const logout = document.querySelector('dropdown-toggle')
+const logout = document.getElementById('dropdown-toggle')
 logout.addEventListener('click', function() {
 
   // open the logout dropdown
