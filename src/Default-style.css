@@ -174,3 +174,8 @@ body {
         transform: translatex(0);
     }
 }
+
+/* banner section */
+.banner #banner {
+    margin-right: 56px;
+}

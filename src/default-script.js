@@ -21,6 +21,9 @@ toggle.addEventListener('click', function() {
 
     // Hide the sidebar's spans and add button and Dropdown menu for when sidebar is closed
     document.body.classList.toggle('hidden-nav');
+
+    // Add the "banner" class to the body element for changing the right margin
+    document.body.classList.toggle('banner');
 });
 
 // Logout dropdown in header
